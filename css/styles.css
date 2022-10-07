@@ -339,9 +339,9 @@ p {
   padding: 19px 23px;
 } */
 
-.item img {
+/* .item img {
   display: block;
-}
+} */
 /* .portfolio-link {
   margin: 0;
 
@@ -359,14 +359,14 @@ p {
   line-height: 1.88;
 } */
 
-.potfolio-link-hover {
+/* .potfolio-link-hover {
   transition: background-color 250ms var(--cubic-bezier), fill 250ms var(--cubic-bezier);
-}
-.portfolio-link-hover:hover,
+} */
+/* .portfolio-link-hover:hover,
 .portfolio-link-hover:focus {
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06),
     0px 1px 1px 0px rgba(0, 0, 0, 0.12);
-}
+} */
 .portfolio-card-overlay {
   position: relative;
   overflow: hidden;

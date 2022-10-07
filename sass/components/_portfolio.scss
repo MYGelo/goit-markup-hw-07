@@ -46,7 +46,7 @@
     padding: 19px 23px;
   }
   &__card-title {
-    color: var(--main-color);
+    color: $main-color;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -73,7 +73,8 @@
     max-width: 370px;
     max-height: 404px;
     background: $primery-white-color;
-
+  }
+  &__link-active {
     transition: background-color 250ms $cubic-bezier, fill 250ms $cubic-bezier;
     &:hover,
     &:focus {
