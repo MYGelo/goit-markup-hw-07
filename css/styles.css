@@ -526,9 +526,7 @@ p {
   line-height: 1.7;
   font-weight: 400;
 }
-/* .about-us__list .item + .item {
-  margin-left: 30px;
-} */
+
 .about-us__item {
   list-style: none;
   width: calc((100% - 90px) / 4);
@@ -549,17 +547,42 @@ p {
   height: 70px;
   width: 70px;
 }
+
 /* What are we doing */
 .wawd {
-  text-align: center;
+  padding-top: 0;
 }
+.wawd__card {
+}
+.wawd__card img {
+  display: block;
+}
+.wawd__primery-title {
+  margin-bottom: 50px;
 
-.wawd-card {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
-.wawd-card-item {
+.wawd__card-position {
   position: relative;
 }
-.wawd-card::after {
+.wawd__list {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  list-style: none;
+  padding: 0;
+
+  gap: 30px;
+}
+.wawd__item {
+  width: calc((100% - 60px) / 3);
+}
+
+.wawd__card::after {
   content: '';
   position: absolute;
 
@@ -572,7 +595,7 @@ p {
   background: rgb(47, 48, 58);
   opacity: 0.8;
 }
-.wawd-text {
+.wawd__text {
   position: absolute;
 
   text-transform: uppercase;
@@ -591,39 +614,25 @@ p {
 
   color: var(--primery-white-color);
 }
-.wawd-padding {
-  padding-top: 0;
+
+/* us team*/
+.usteam {
+  background-color: var(--button-second-backgund);
 }
 
-.wawd h2 {
-  margin-bottom: 50px;
-
+.usteam__primaty-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
-}
-.wawd .items {
-  display: flex;
-  justify-content: space-around;
-  margin: 0;
-  /* margin-top: 50px;
-  margin-bottom: 94px; */
-  padding: 0;
-}
-.wawd .item + .item {
-  margin-left: 30px;
-}
-/* us team*/
 
-.usteam {
-  background-color: var(--button-second-backgund);
-}
-.usteam h2 {
+  color: var(--main-color);
+
   margin: 0;
   margin-bottom: 50px;
 }
+
 .usteam .item + .item {
   margin-left: 30px;
 }
@@ -646,15 +655,6 @@ p {
   font-weight: 400;
   line-height: 1.2;
   letter-spacing: 0.03em;
-}
-.usteam h2 {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.2;
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: var(--main-color);
 }
 
 .usteam .title {
