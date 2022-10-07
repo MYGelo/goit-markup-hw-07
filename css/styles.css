@@ -501,7 +501,7 @@ p {
 }
 
 /* about us */
-.about-us__title-hide {
+/* .about-us__title-hide {
   position: absolute !important;
   color: transparent;
 }
@@ -546,42 +546,14 @@ p {
 .about-us__item-svg {
   height: 70px;
   width: 70px;
-}
+} */
 
 /* What are we doing */
-.wawd {
+/* .wawd {
   padding-top: 0;
+} */
+/* .wawd__card {
 }
-.wawd__card {
-}
-.wawd__card img {
-  display: block;
-}
-.wawd__primery-title {
-  margin-bottom: 50px;
-
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.2;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
-.wawd__card-position {
-  position: relative;
-}
-.wawd__list {
-  display: flex;
-  justify-content: space-around;
-  margin: 0;
-  list-style: none;
-  padding: 0;
-
-  gap: 30px;
-}
-.wawd__item {
-  width: calc((100% - 60px) / 3);
-}
-
 .wawd__card::after {
   content: '';
   position: absolute;
@@ -594,8 +566,34 @@ p {
   height: 70px;
   background: rgb(47, 48, 58);
   opacity: 0.8;
+} */
+
+/* .wawd__primery-title {
+  margin-bottom: 50px;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+} */
+/* .wawd__card-position {
+  position: relative;
+} */
+/* .wawd__list {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  list-style: none;
+  padding: 0;
+
+  gap: 30px;
 }
-.wawd__text {
+.wawd__item {
+  width: calc((100% - 60px) / 3);
+} */
+
+/* .wawd__text {
   position: absolute;
 
   text-transform: uppercase;
@@ -613,7 +611,7 @@ p {
   opacity: 1;
 
   color: var(--primery-white-color);
-}
+} */
 
 /* us team*/
 .usteam {
