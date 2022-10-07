@@ -40,4 +40,19 @@
       color: $accent-color;
     }
   }
+  &__social-title {
+    padding-top: 12px;
+
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+
+    text-transform: uppercase;
+
+    margin-bottom: 20px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: var(--primery-white-color);
+  }
 }
