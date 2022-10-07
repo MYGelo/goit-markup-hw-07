@@ -501,38 +501,39 @@ p {
 }
 
 /* about us */
-.about-us h2 {
+.about-us__title-hide {
   position: absolute !important;
   color: transparent;
 }
-.about-us li {
-  list-style: none;
-}
-.about-us .section-us {
+
+.about-us__list {
   display: flex;
-  justify-content: space-around;
   padding: 0;
-  margin-top: 0;
-  margin-bottom: 0;
+  flex-wrap: wrap;
+  gap: 30px;
 }
-.about-us .title {
+.about-us__secondary-title {
   color: var(--main-color);
 
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1;
 }
-.about-us .text {
+.about-us__text {
   color: var(--second-color);
 
   font-size: 14px;
   line-height: 1.7;
   font-weight: 400;
 }
-.section-us .item + .item {
+/* .about-us__list .item + .item {
   margin-left: 30px;
+} */
+.about-us__item {
+  list-style: none;
+  width: calc((100% - 90px) / 4);
 }
-.section-us-bg {
+.about-us__item-bg {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -544,7 +545,7 @@ p {
 
   background-color: var(--button-second-backgund);
 }
-.section-us-bg .svg-us {
+.about-us__item-svg {
   height: 70px;
   width: 70px;
 }
