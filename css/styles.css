@@ -614,13 +614,13 @@ p {
 } */
 
 /* us team*/
-.usteam {
+/* .us-team {
   background-color: var(--button-second-backgund);
-}
-.usteam img {
+} */
+/* .us-team img {
   display: block;
-}
-.usteam__primaty-title {
+} */
+/* .us-team__primaty-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
@@ -631,45 +631,44 @@ p {
 
   margin: 0;
   margin-bottom: 50px;
-}
+} */
 
-.usteam__list {
+/* .us-team__list {
   display: flex;
   margin-top: 0;
   margin-bottom: 0;
   padding: 0;
 
   gap: 30px;
-}
+} */
 
-.usteam__item {
+/* .us-team__item {
   list-style: none;
   width: calc((100% - 90px) / 4);
-  /* height: 100%; */
-}
+} */
 
-.usteam__card {
+/* .us-team__card {
   text-align: center;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-}
+} */
 
-.usteam__card-body {
+/* .us-team__card-body {
   background-color: var(--primery-white-color);
   padding: 30px 10px;
-}
+} */
 
-.usteam__secondary-title {
+/* .us-team__secondary-title {
   color: var(--main-color);
 
   font-size: 16px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.03em;
-}
+} */
 
-.usteam__text {
+/* .us-team__text {
   color: var(--second-color);
 
   margin-bottom: 16px;
@@ -678,7 +677,7 @@ p {
   font-weight: 400;
   line-height: 1.2;
   letter-spacing: 0.03em;
-}
+} */
 .social-links-us {
   display: inline-flex;
   align-items: center;
