@@ -18,6 +18,22 @@ body {
   padding-right: 15px;
 }
 
+.logo {
+  color: #2196f3;
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.logo__header {
+  color: #212121;
+}
+.logo__footer {
+  color: #ffffff;
+}
+
 .about-us__title-hide {
   position: absolute !important;
   color: transparent;
