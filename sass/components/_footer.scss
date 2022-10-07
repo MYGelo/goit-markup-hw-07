@@ -1,0 +1,43 @@
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: #2f303a;
+
+  &__items {
+    display: inline-flex;
+  }
+  &__address {
+    padding: 0;
+    margin-left: auto;
+
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    font-weight: 400;
+
+    list-style: none;
+  }
+  &__address-item:not(:first-child) {
+    margin-top: 10px;
+  }
+  &__address-map {
+    color: $primery-white-color;
+    text-decoration: none;
+    transition: color 250ms $cubic-bezier;
+    &:hover,
+    &:focus {
+      color: $accent-color;
+    }
+  }
+  &__contact {
+    text-decoration: none;
+    color: $footer-contact-color;
+
+    transition: color 250ms var(--cubic-bezier);
+    &:hover,
+    &:focus {
+      color: $accent-color;
+    }
+  }
+}
