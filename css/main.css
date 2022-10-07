@@ -193,13 +193,13 @@ body {
   padding: 16px 32px;
   align-items: center;
   justify-content: center;
-  fill: var(--primery-grey-color);
-  background-color: var(--f5f5f5);
+  fill: #afb1b8;
+  background-color: #f5f5f5;
   border: 1px solid var(--primery-grey-color);
   border-radius: 4px;
   transition: background-color 250ms var(--cubic-bezier), fill 250ms var(--cubic-bezier), border 250ms var(--cubic-bezier);
 }
 .clients__link:hover, .clients__link:focus {
-  fill: var(--accent-color);
-  border: 1px solid var(--accent-color);
+  fill: #2196f3;
+  border: 1px solid #2196f3;
 }/*# sourceMappingURL=main.css.map */

@@ -30,9 +30,9 @@
     padding: 16px 32px;
     align-items: center;
     justify-content: center;
-    fill: var(--primery-grey-color);
+    fill: $primery-grey-color;
 
-    background-color: var(--f5f5f5);
+    background-color: $clients-bg;
 
     border: 1px solid var(--primery-grey-color);
     border-radius: 4px;
@@ -41,8 +41,8 @@
       border 250ms var(--cubic-bezier);
     &:hover,
     &:focus {
-      fill: var(--accent-color);
-      border: 1px solid var(--accent-color);
+      fill: $accent-color;
+      border: 1px solid $accent-color;
     }
   }
 }
