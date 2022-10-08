@@ -170,19 +170,7 @@ p {
   fill: var(--primery-white-color);
   background-color: var(--accent-color);
 }
-.social-list {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 
-  padding: 0;
-
-  list-style: none;
-}
-
-.social-list .item + .item {
-  margin-left: 10px;
-}
 .social-icons {
   width: 20px;
   height: 20px;
