@@ -1,6 +1,4 @@
 .portfolio {
-  text-align: center;
-
   &__title-hide {
     position: absolute !important;
 
@@ -21,7 +19,7 @@
       margin-left: 8px;
     }
   }
-  &__content-list {
+  &__content {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
