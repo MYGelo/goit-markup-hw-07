@@ -1,10 +1,12 @@
 @import './utils/variables';
 @import './base/common';
 
-@import './components/logo';
+@import './layout/logo';
 
 @import './components/social';
 @import './components/buttons';
+
+@import './components/modal';
 
 @import './components/about-us';
 @import './components/wawd';
@@ -12,7 +14,7 @@
 @import './components/clients';
 @import './components/hero';
 @import './components/contacts';
-@import './components/footer.scss';
 @import './components/portfolio';
-@import './components/modal';
-@import './components/header';
+
+@import './layout/footer';
+@import './layout/header';
