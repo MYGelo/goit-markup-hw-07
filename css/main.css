@@ -481,6 +481,32 @@ body {
 .portfolio__link-active:hover, .portfolio__link-active:focus {
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
+.portfolio__overlay {
+  position: relative;
+  overflow: hidden;
+}
+.portfolio__overlay:hover .overlay, .portfolio__overlay:focus .overlay {
+  transform: translatex(0);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 63px 24px;
+  background: var(--accent-color-bg-card);
+  color: var(--primery-white-color);
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  transform: translatey(100%);
+  transition: transform 250ms var(--cubic-bezier);
+}
 
 .backdrop {
   position: fixed;
