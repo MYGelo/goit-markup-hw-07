@@ -12,4 +12,29 @@
       margin-left: 10px;
     }
   }
+  &__links {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    fill: var(--primery-grey-color);
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+
+    transition: background-color 250ms var(--cubic-bezier), fill 250ms var(--cubic-bezier);
+    &--revers {
+      fill: var(--primery-white-color);
+    }
+
+    &:hover,
+    &:focus {
+      fill: var(--primery-white-color);
+      background-color: var(--accent-color);
+    }
+  }
+  &__icons {
+    width: 20px;
+    height: 20px;
+  }
 }
