@@ -77,7 +77,7 @@
       <!-- about us -->
       <section class="about section">
         <div class="container">
-          <h2 class="about__title-hide">О нас</h2>
+          <h2 class="hide">О нас</h2>
           <ul class="about__list">
             <li class="about__item">
               <div class="about__item-bg">
@@ -546,64 +546,69 @@
     </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <!-- <p class="modal-text"></p> -->
-        <form class="modal-form">
-          <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
+        <form class="modal__indent">
+          <p class="modal__title">Залиште свої дані, ми вам передзвонимо</p>
 
-          <label class="modal-form__field" for="input-name">
-            <span class="modal-text">Ім'я</span>
-            <div class="modal-items">
-              <input class="form-item" type="input-name" name="name" required id="input-name" />
-              <svg class="svg-modal">
+          <label class="modal__field" for="input-name">
+            <span class="modal__text">Ім'я</span>
+            <div class="modal__items">
+              <input class="modal__form" type="input-name" name="name" required id="input-name" />
+              <svg class="modal__svg">
                 <use href="./images/icons.svg#person"></use>
               </svg>
             </div>
           </label>
 
-          <label class="modal-form__field" for="input-name">
-            <span class="modal-text">Телефон</span>
-            <div class="modal-items">
-              <input class="form-item" type="input-phone" name="phone" required id="input-phone" />
-              <svg class="svg-modal">
+          <label class="modal__field" for="input-name">
+            <span class="modal__text">Телефон</span>
+            <div class="modal__items">
+              <input
+                class="modal__form"
+                type="input-phone"
+                name="phone"
+                required
+                id="input-phone"
+              />
+              <svg class="modal__svg">
                 <use href="./images/icons.svg#phone"></use>
               </svg>
             </div>
           </label>
 
-          <label class="modal-form__field" for="input-mail">
-            <span class="modal-text">Пошта</span>
-            <div class="modal-items">
+          <label class="modal__field" for="input-mail">
+            <span class="modal__text">Пошта</span>
+            <div class="modal__items">
               <input
-                class="form-item modal-items"
+                class="modal__form"
                 type="input-email"
                 name="email"
                 required
                 id="input-email"
               />
-              <svg class="svg-modal">
+              <svg class="modal__svg">
                 <use href="./images/icons.svg#email"></use>
               </svg>
             </div>
           </label>
 
-          <label class="modal-form__field" for="input-massage">
-            <span class="modal-text">Коментар</span>
+          <label class="modal__field" for="input-massage">
+            <span class="modal__text">Коментар</span>
             <textarea
-              class="form-area"
+              class="modal__area"
               name="feedback"
               placeholder="Введіть текст"
               resize="none"
             ></textarea>
           </label>
 
-          <div class="contact">
-            <label class="modal-form-contract">
-              <input type="checkbox" class="checkbox" name="check" value=" " /><span
-                class="checkbox1"
+          <div class="modal__check--box">
+            <label class="modal__contract">
+              <input type="checkbox" class="modal__check--hide" name="check" value=" " /><span
+                class="modal__check"
               ></span>
 
               Погоджуюся з розсилкою та приймаю
-              <a class="modal-form-contract-link" href="#"> Умови договору</a>
+              <a class="modal__check--color" href="#"> Умови договору</a>
             </label>
           </div>
           <button type="submit" class="button button__modal-send">Відправити</button>
