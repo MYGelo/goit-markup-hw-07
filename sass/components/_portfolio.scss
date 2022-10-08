@@ -92,8 +92,8 @@
   width: 100%;
   height: 100%;
   padding: 63px 24px;
-  background: var(--accent-color-bg-card);
-  color: var(--primery-white-color);
+  background: $accent-color-bg-card;
+  color: $primery-white-color;
 
   font-family: Roboto;
   font-size: 18px;
@@ -103,5 +103,5 @@
   text-align: left;
 
   transform: translatey(100%);
-  transition: transform 250ms var(--cubic-bezier);
+  transition: transform 250ms $cubic-bezier;
 }

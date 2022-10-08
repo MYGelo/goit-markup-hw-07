@@ -16,21 +16,21 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    fill: var(--primery-grey-color);
+    fill: $primery-grey-color;
     width: 44px;
     height: 44px;
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.1);
 
-    transition: background-color 250ms var(--cubic-bezier), fill 250ms var(--cubic-bezier);
+    transition: background-color 250ms $cubic-bezier, fill 250ms $cubic-bezier;
     &--revers {
-      fill: var(--primery-white-color);
+      fill: $primery-white-color;
     }
 
     &:hover,
     &:focus {
-      fill: var(--primery-white-color);
-      background-color: var(--accent-color);
+      fill: $primery-white-color;
+      background-color: $accent-color;
     }
   }
   &__icons {

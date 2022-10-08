@@ -37,7 +37,7 @@
     text-decoration: none;
     color: $footer-contact-color;
 
-    transition: color 250ms var(--cubic-bezier);
+    transition: color 250ms $cubic-bezier;
     &:hover,
     &:focus {
       color: $accent-color;
@@ -56,7 +56,7 @@
     margin-bottom: 20px;
     letter-spacing: 0.03em;
     text-align: left;
-    color: var(--primery-white-color);
+    color: $primery-white-color;
   }
   &__subscribe--indent {
     margin-left: 93px;
@@ -81,8 +81,8 @@
     background-color: transparent;
 
     &:focus-within {
-      border-color: var(--accent-color);
-      color: var(--primery-white-color);
+      border-color: $accent-color;
+      color: $primery-white-color;
     }
   }
 }

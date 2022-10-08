@@ -1,8 +1,11 @@
-@import './base/common';
 @import './utils/variables';
+@import './base/common';
+
 @import './components/logo';
+
 @import './components/social';
 @import './components/buttons';
+
 @import './components/about-us';
 @import './components/wawd';
 @import './components/us-team';
@@ -12,3 +15,4 @@
 @import './components/footer.scss';
 @import './components/portfolio';
 @import './components/modal';
+@import './components/header';
