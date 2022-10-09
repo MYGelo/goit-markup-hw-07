@@ -1,7 +1,7 @@
 .team {
   background-color: $button-second-backgund;
 
-  &__primaty-title {
+  &__title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
@@ -31,7 +31,7 @@
       0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
   }
-  &__card-img {
+  &__img {
     display: block;
   }
   &__card-body {
