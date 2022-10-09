@@ -16,7 +16,7 @@
       opacity: 0.8;
     }
   }
-  &__primery-title {
+  &__title {
     margin-bottom: 50px;
 
     font-weight: 700;
@@ -37,7 +37,7 @@
   &__item {
     width: calc((100% - 60px) / 3);
   }
-  &__card-position {
+  &__box {
     position: relative;
   }
   &__text {

@@ -393,7 +393,7 @@ p {
   background: rgb(47, 48, 58);
   opacity: 0.8;
 }
-.wawd__primery-title {
+.wawd__title {
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
@@ -412,7 +412,7 @@ p {
 .wawd__item {
   width: calc((100% - 60px) / 3);
 }
-.wawd__card-position {
+.wawd__box {
   position: relative;
 }
 .wawd__text {
