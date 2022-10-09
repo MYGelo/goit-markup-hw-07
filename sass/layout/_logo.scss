@@ -8,10 +8,10 @@
   letter-spacing: 0.03em;
 
   text-decoration: none;
-  &__header {
+  &-header {
     color: $main-color;
   }
-  &__footer {
+  &-footer {
     color: $primery-white-color;
   }
 }
