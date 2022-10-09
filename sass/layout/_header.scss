@@ -1,6 +1,13 @@
 .header {
   border-bottom: 1px solid $header-border-color;
 
+  &__nav {
+    display: flex;
+    align-items: center;
+    margin-left: 93px;
+    line-height: 0;
+  }
+
   &__contact {
     display: inline-flex;
     align-items: center;
@@ -26,62 +33,59 @@
       margin-right: 10px;
     }
   }
-  //   .nav-links {
-  //     display: inline-flex;
-  //     margin-left: auto;
-  //     padding: 0;
-  //     line-height: 0;
-  //     list-style: none;
-  //   }
-  //   .nav-links .item + .item {
-  //     margin-left: 30px;
-}
-&__nav {
-  display: flex;
-  align-items: center;
-  margin-left: 93px;
-  line-height: 0;
-}
-&__alignment {
-  display: flex;
-  align-items: center;
 
-  & .link {
-    position: relative;
-    color: $main-color;
+  &__alignment {
+    display: flex;
+    align-items: center;
 
-    padding-bottom: 31px;
+    & .link {
+      position: relative;
+      color: $main-color;
 
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    text-decoration: none;
+      padding-bottom: 31px;
 
-    transition: color 250ms $cubic-bezier;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 1.14;
+      letter-spacing: 0.02em;
+      text-decoration: none;
 
-    &:hover,
-    &:focus {
+      transition: color 250ms $cubic-bezier;
+
+      &:hover,
+      &:focus {
+        color: $accent-color;
+      }
+    }
+
+    & .link.current {
       color: $accent-color;
+      &::after {
+        content: '';
+
+        position: absolute;
+        bottom: -1px;
+        display: block;
+        width: 109%;
+        transform: translate(-4.5%, -4.5%);
+        height: 4px;
+        border-radius: 2px;
+
+        background: $accent-color;
+      }
     }
   }
+}
 
-  & .link.current {
-    color: $accent-color;
-    &::after {
-      content: '';
-
-      position: absolute;
-      bottom: -1px;
-      display: block;
-      width: 109%;
-      transform: translate(-4.5%, -4.5%);
-      height: 4px;
-      border-radius: 2px;
-
-      background: $accent-color;
-    }
-  }
+.nav-links {
+  display: inline-flex;
+  margin-left: auto;
+  padding: 0;
+  line-height: 0;
+  list-style: none;
+}
+.nav-links .item + .item {
+  margin-left: 30px;
 }
 
 .nav-box {

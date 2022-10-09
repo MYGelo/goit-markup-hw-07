@@ -23,7 +23,7 @@
     list-style: none;
     width: calc((100% - 90px) / 4);
   }
-  &__item-bg {
+  &__box {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -35,7 +35,7 @@
 
     background-color: $button-second-backgund;
   }
-  &__item-svg {
+  &__img {
     height: 70px;
     width: 70px;
   }
